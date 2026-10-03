@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subiksen V S | Java Full Stack & AI Developer</title>
+  <meta name="description" content="Portfolio of Subiksen V S - Java Full Stack Developer & AI Engineer specializing in Spring Boot, Angular, Python RAG, and MySQL." />
+
+  <!-- Google Fonts: Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Dynamic Interactive Particle Background Canvas -->
+  <canvas id="particleCanvas"></canvas>
+  <div class="bg-gradient-glow glow-1"></div>
+  <div class="bg-gradient-glow glow-2"></div>
+
+  <!-- Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand">
+        <span class="brand-code">&lt;S/&gt;</span>
+        <span class="brand-name">SUBIKSEN V S</span>
+        <span class="brand-badge"><span class="badge-dot"></span>Open to Work</span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#experience" class="nav-item">Timeline</a>
+        <a href="#certifications" class="nav-item">Certifications</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-glow">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-text-content">
+          <div class="hero-chip">
+            <i class="fa-solid fa-bolt text-cyan"></i>
+            <span>Engineering Scalable Full-Stack &amp; AI Systems</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Subiksen V S</span><br />
+            <span class="typewriter-wrap">
+              <span id="typewriter"></span><span class="cursor-blink">|</span>
+            </span>
+          </h1>
+
+          <p class="hero-desc">
+            Passionate software engineer building robust enterprise backend architectures with <strong>Java &amp; Spring Boot</strong>, high-performance web frontends with <strong>Angular</strong>, and intelligent data solutions using <strong>Python &amp; Generative AI (RAG)</strong>.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#projects" class="btn btn-primary btn-glow">
+              <i class="fa-solid fa-code"></i> Explore Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-paper-plane"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-social-links">
+            <span class="soc-label">Reach out:</span>
+            <a href="mailto:subiksen.v.s@gmail.com" class="soc-chip" title="Copy / Email">
+              <i class="fa-solid fa-envelope"></i> subiksen.v.s@gmail.com
+            </a>
+            <a href="tel:+917904600551" class="soc-chip" title="Phone">
+              <i class="fa-solid fa-phone"></i> +91 7904600551
+            </a>
+            <span class="soc-chip loc"><i class="fa-solid fa-location-dot"></i> Trichy, India</span>
+          </div>
+        </div>
+
+        <!-- 3D Holographic Code Window Card -->
+        <div class="hero-card-container">
+          <div class="interactive-code-card glass-panel" id="heroInteractiveCard">
+            <div class="code-card-header">
+              <div class="window-btns">
+                <span class="w-btn red"></span>
+                <span class="w-btn yellow"></span>
+                <span class="w-btn green"></span>
+              </div>
+              <div class="card-tab-title"><i class="fa-brands fa-java text-cyan"></i> SubiksenStack.java</div>
+              <div class="active-status-tag">ACTIVE</div>
+            </div>
+
+            <pre class="code-editor-body"><code><span class="kw">package</span> <span class="pkg">com.subiksen.core</span>;
+
+<span class="kw">public class</span> <span class="cls">FullStackProfile</span> {
+  <span class="kw">private final String</span> name = <span class="str">"Subiksen V S"</span>;
+  <span class="kw">private final String</span> degree = <span class="str">"B.E. CSE (CGPA: 8.3)"</span>;
+  
+  <span class="kw">private final String[]</span> primaryStack = {
+    <span class="str">"Java 21"</span>, <span class="str">"Spring Boot"</span>, 
+    <span class="str">"Angular"</span>, <span class="str">"MySQL REST"</span>,
+    <span class="str">"Python"</span>, <span class="str">"RAG GenAI"</span>
+  };
+
+  <span class="kw">public void</span> <span class="fn">executeVision</span>() {
+    <span class="cls">System</span>.out.<span class="fn">println</span>(<span class="str">"Building High-Impact Systems 🚀"</span>);
+  }
+}</code></pre>
+
+            <div class="card-floating-tags">
+              <span class="float-tag tag-spring"><i class="fa-brands fa-envira"></i> Spring Boot</span>
+              <span class="float-tag tag-angular"><i class="fa-brands fa-angular"></i> Angular</span>
+              <span class="float-tag tag-python"><i class="fa-brands fa-python"></i> Python RAG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & EDUCATION SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow"><i class="fa-solid fa-user-astronaut"></i> PROFILE</span>
+          <h2 class="section-title">About Me &amp; <span class="gradient-text">Academic Foundation</span></h2>
+          <div class="section-decor"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel">
+            <h3><i class="fa-solid fa-terminal text-cyan"></i> Professional Overview</h3>
+            <p>
+              I am an aspiring <strong>Java Full Stack Developer</strong> with hands-on experience developing scalable web applications using <strong>Java, Spring Boot, Angular, MySQL, and REST APIs</strong>.
+            </p>
+            <p>
+              Skilled in backend architecture, full CRUD operations, API integration, and AI-powered solutions using <strong>Python and Streamlit</strong>. I possess a strong foundation in Object-Oriented Programming (OOP), Data Structures &amp; Algorithms (DSA), DBMS, and Operating Systems with a dedicated focus on scalable and clean coding principles.
+            </p>
+
+            <div class="core-pillars">
+              <div class="pillar-box">
+                <i class="fa-solid fa-server text-cyan"></i>
+                <div>
+                  <strong>Backend Services</strong>
+                  <span>Spring Boot, JPA, REST APIs, MySQL</span>
+                </div>
+              </div>
+              <div class="pillar-box">
+                <i class="fa-solid fa-laptop-code text-purple"></i>
+                <div>
+                  <strong>Frontend SPAs</strong>
+                  <span>Angular, TypeScript, Responsive UX</span>
+                </div>
+              </div>
+              <div class="pillar-box">
+                <i class="fa-solid fa-brain text-emerald"></i>
+                <div>
+                  <strong>AI Solutions</strong>
+                  <span>Python, RAG Architecture, Streamlit</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card glass-panel">
+            <div class="edu-top">
+              <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="edu-score">
+                <span class="score-label">CGPA</span>
+                <span class="score-number">8.3 / 10.0</span>
+              </div>
+            </div>
+            <span class="edu-degree-type">Bachelor of Engineering (B.E.)</span>
+            <h3>Computer Science and Engineering</h3>
+            <p class="edu-college"><i class="fa-solid fa-building-columns"></i> K. Ramakrishnan College of Technology, Trichy</p>
+            
+            <div class="edu-details-list">
+              <div class="detail-item">
+                <i class="fa-solid fa-circle-check text-cyan"></i>
+                <span>Deep foundation in Data Structures &amp; Algorithms, OOP, Database Systems, Computer Networks &amp; OS.</span>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-circle-check text-cyan"></i>
+                <span>Active participant in software engineering hackathons and technical symposiums.</span>
+              </div>
+            </div>
+
+            <div class="edu-coursework-box">
+              <span class="coursework-label"><i class="fa-solid fa-book-bookmark text-cyan"></i> Core Academic Focus:</span>
+              <div class="coursework-tags">
+                <span class="c-tag">Data Structures &amp; Algorithms</span>
+                <span class="c-tag">Object-Oriented Design</span>
+                <span class="c-tag">Database Management (DBMS)</span>
+                <span class="c-tag">Operating Systems</span>
+                <span class="c-tag">Software Engineering</span>
+                <span class="c-tag">Computer Networks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS MATRIX (INTERACTIVE TABS) -->
+    <section id="skills" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow"><i class="fa-solid fa-cubes"></i> EXPERTISE</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills Matrix</span></h2>
+          <p class="section-subtitle-text">Categorized breakdown of programming languages, frameworks, and system tools.</p>
+          <div class="section-decor"></div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="skill-tabs-row">
+          <button class="skill-tab active" data-filter="all"><i class="fa-solid fa-border-all"></i> All Skills</button>
+          <button class="skill-tab" data-filter="languages"><i class="fa-solid fa-code"></i> Languages</button>
+          <button class="skill-tab" data-filter="backend"><i class="fa-solid fa-server"></i> Backend &amp; DB</button>
+          <button class="skill-tab" data-filter="frontend"><i class="fa-brands fa-angular"></i> Frontend</button>
+          <button class="skill-tab" data-filter="ai-tools"><i class="fa-solid fa-brain"></i> AI &amp; Tools</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid-container" id="skillsContainer">
+          
+          <!-- Languages -->
+          <div class="skill-item glass-panel" data-cat="languages">
+            <div class="skill-icon-bar icon-java"><i class="fa-brands fa-java"></i></div>
+            <div class="skill-info">
+              <h4>Java</h4>
+              <span class="skill-type">Primary Backend</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="languages">
+            <div class="skill-icon-bar icon-python"><i class="fa-brands fa-python"></i></div>
+            <div class="skill-info">
+              <h4>Python</h4>
+              <span class="skill-type">AI &amp; Automation</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="languages">
+            <div class="skill-icon-bar icon-sql"><i class="fa-solid fa-database"></i></div>
+            <div class="skill-info">
+              <h4>SQL</h4>
+              <span class="skill-type">Queries &amp; Relational Data</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="languages">
+            <div class="skill-icon-bar icon-js"><i class="fa-brands fa-js"></i></div>
+            <div class="skill-info">
+              <h4>JavaScript (ES6+)</h4>
+              <span class="skill-type">Web Logic</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="languages">
+            <div class="skill-icon-bar icon-c"><i class="fa-solid fa-c"></i></div>
+            <div class="skill-info">
+              <h4>C Programming</h4>
+              <span class="skill-type">Core Fundamentals</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 80%;"></div></div>
+          </div>
+
+          <!-- Backend & Database -->
+          <div class="skill-item glass-panel" data-cat="backend">
+            <div class="skill-icon-bar icon-spring"><i class="fa-brands fa-envira"></i></div>
+            <div class="skill-info">
+              <h4>Spring Boot</h4>
+              <span class="skill-type">REST Microservices</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="backend">
+            <div class="skill-icon-bar icon-api"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="skill-info">
+              <h4>RESTful APIs</h4>
+              <span class="skill-type">API Integrations</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 92%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="backend">
+            <div class="skill-icon-bar icon-mysql"><i class="fa-solid fa-server"></i></div>
+            <div class="skill-info">
+              <h4>MySQL</h4>
+              <span class="skill-type">Schema &amp; CRUD Operations</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 88%;"></div></div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-item glass-panel" data-cat="frontend">
+            <div class="skill-icon-bar icon-angular"><i class="fa-brands fa-angular"></i></div>
+            <div class="skill-info">
+              <h4>Angular</h4>
+              <span class="skill-type">Single Page Apps</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 86%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="frontend">
+            <div class="skill-icon-bar icon-html"><i class="fa-brands fa-html5"></i></div>
+            <div class="skill-info">
+              <h4>HTML5 &amp; CSS3</h4>
+              <span class="skill-type">Modern UI Layouts</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 92%;"></div></div>
+          </div>
+
+          <!-- AI & Tools -->
+          <div class="skill-item glass-panel" data-cat="ai-tools">
+            <div class="skill-icon-bar icon-rag"><i class="fa-solid fa-brain"></i></div>
+            <div class="skill-info">
+              <h4>RAG &amp; GenAI</h4>
+              <span class="skill-type">Retrieval Augmented Gen</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="ai-tools">
+            <div class="skill-icon-bar icon-streamlit"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="skill-info">
+              <h4>Streamlit</h4>
+              <span class="skill-type">Interactive Dashboards</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="ai-tools">
+            <div class="skill-icon-bar icon-git"><i class="fa-brands fa-github"></i></div>
+            <div class="skill-info">
+              <h4>Git &amp; GitHub</h4>
+              <span class="skill-type">Version Control &amp; CI</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-item glass-panel" data-cat="ai-tools">
+            <div class="skill-icon-bar icon-dsa"><i class="fa-solid fa-sitemap"></i></div>
+            <div class="skill-info">
+              <h4>OOP, DSA &amp; OS</h4>
+              <span class="skill-type">Computer Science Core</span>
+            </div>
+            <div class="skill-progress"><div class="progress-fill" style="width: 88%;"></div></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SHOWCASE -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow"><i class="fa-solid fa-laptop-code"></i> WORK</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Engineering Projects</span></h2>
+          <p class="section-subtitle-text">Production-ready systems spanning AI-based support, full-stack portals, and Spring Boot backends.</p>
+          <div class="section-decor"></div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: AI Ticket Support -->
+          <div class="project-card glass-panel">
+            <div class="project-header-bar">
+              <div class="p-badge ai"><i class="fa-solid fa-robot"></i> Generative AI &amp; RAG</div>
+              <a href="https://github.com" target="_blank" rel="noopener" class="p-github-link" title="GitHub Repository"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+
+            <h3 class="project-title">AI-Based Ticket Support System (RAG)</h3>
+            <p class="project-summary">
+              An intelligent, context-aware support automation platform utilizing Retrieval-Augmented Generation (RAG) to instantly answer customer support queries and manage real-time resolution flows.
+            </p>
+
+            <div class="project-features-list">
+              <div class="feat-item"><i class="fa-solid fa-check text-cyan"></i> Built with <strong>Python</strong> and rapid, interactive <strong>Streamlit</strong> frontend.</div>
+              <div class="feat-item"><i class="fa-solid fa-check text-cyan"></i> Integrated <strong>RAG pipeline</strong> to ground AI responses in verified company documentation.</div>
+              <div class="feat-item"><i class="fa-solid fa-check text-cyan"></i> Real-time ticket status tracking reducing support turnaround time.</div>
+            </div>
+
+            <div class="project-tech-pills">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>RAG</span>
+              <span>Vector Embeddings</span>
+              <span>NLP</span>
+            </div>
+          </div>
+
+          <!-- Project 2: Neighbourhood Service Portal -->
+          <div class="project-card glass-panel">
+            <div class="project-header-bar">
+              <div class="p-badge fullstack"><i class="fa-solid fa-layer-group"></i> Full Stack Web App</div>
+              <a href="https://github.com" target="_blank" rel="noopener" class="p-github-link" title="GitHub Repository"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+
+            <h3 class="project-title">Neighbourhood Service Portal</h3>
+            <p class="project-summary">
+              A responsive community services web application enabling local residents to request, coordinate, and track neighbourhood services through a single unified portal.
+            </p>
+
+            <div class="project-features-list">
+              <div class="feat-item"><i class="fa-solid fa-check text-purple"></i> Developed single page frontend using <strong>Angular</strong> component architecture.</div>
+              <div class="feat-item"><i class="fa-solid fa-check text-purple"></i> Integrated secure user authentication &amp; role-based service management.</div>
+              <div class="feat-item"><i class="fa-solid fa-check text-purple"></i> Connected to <strong>MySQL</strong> database with efficient RESTful API endpoints.</div>
+            </div>
+
+            <div class="project-tech-pills">
+              <span>Angular</span>
+              <span>TypeScript</span>
+              <span>MySQL</span>
+              <span>REST APIs</span>
+              <span>CRUD</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Inventory Management System -->
+          <div class="project-card glass-panel">
+            <div class="project-header-bar">
+              <div class="p-badge backend"><i class="fa-solid fa-server"></i> Spring Boot Enterprise</div>
+              <a href="https://github.com" target="_blank" rel="noopener" class="p-github-link" title="GitHub Repository"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+
+            <h3 class="project-title">Inventory Management System</h3>
+            <p class="project-summary">
+              An enterprise backend service engineered to automate product cataloging, live stock tracking, threshold replenishment alerts, and transactional data integrity.
+            </p>
+
+            <div class="project-features-list">
+              <div class="feat-item"><i class="fa-solid fa-check text-emerald"></i> Engineered with <strong>Java &amp; Spring Boot</strong> with Spring Data JPA.</div>
+              <div class="feat-item"><i class="fa-solid fa-check text-emerald"></i> Full product management, stock auditing, and standardized REST CRUD endpoints.</div>
+              <div class="feat-item"><i class="fa-solid fa-check text-emerald"></i> Designed robust backend transactional workflows with <strong>MySQL</strong>.</div>
+            </div>
+
+            <div class="project-tech-pills">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>Spring Data JPA</span>
+              <span>MySQL</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section id="experience" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow"><i class="fa-solid fa-briefcase"></i> CAREER</span>
+          <h2 class="section-title">Experience &amp; <span class="gradient-text">Training</span></h2>
+          <div class="section-decor"></div>
+        </div>
+
+        <div class="timeline-wrapper">
+          
+          <div class="timeline-card glass-panel">
+            <div class="t-year-badge">2025</div>
+            <div class="t-content">
+              <div class="t-title-row">
+                <h3>Infosys Virtual Internship 6.0</h3>
+                <span class="t-company"><i class="fa-solid fa-building"></i> Infosys</span>
+              </div>
+              <ul class="t-list">
+                <li>Worked on enterprise software engineering practices, standard development workflows, and analytical problem-solving.</li>
+                <li>Gained practical understanding of Software Development Life Cycle (SDLC) concepts and agile methodologies.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-card glass-panel">
+            <div class="t-year-badge">2025</div>
+            <div class="t-content">
+              <div class="t-title-row">
+                <h3>Full Stack Developer Training</h3>
+                <span class="t-company"><i class="fa-solid fa-code"></i> Matrimorphosis</span>
+              </div>
+              <ul class="t-list">
+                <li>Developed full-stack web applications using Angular with backend integration.</li>
+                <li>Built REST APIs and implemented complete CRUD operations for real-world project workflows.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-card glass-panel">
+            <div class="t-year-badge">2024</div>
+            <div class="t-content">
+              <div class="t-title-row">
+                <h3>AI Developer Intern</h3>
+                <span class="t-company"><i class="fa-solid fa-robot"></i> Edunet Foundation</span>
+              </div>
+              <ul class="t-list">
+                <li>Worked on AI and Generative AI concepts through virtual internship tasks and hands-on activities.</li>
+                <li>Enhanced practical implementation skills in AI workflows, vector embeddings, and structured data handling.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow"><i class="fa-solid fa-certificate"></i> CREDENTIALS</span>
+          <h2 class="section-title">Industry <span class="gradient-text">Certifications</span></h2>
+          <div class="section-decor"></div>
+        </div>
+
+        <div class="certifications-grid">
+          
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrap icon-genai"><i class="fa-solid fa-brain"></i></div>
+            <div class="cert-text">
+              <span class="cert-issuer">Simplilearn</span>
+              <h4>Applied Generative AI Specialization</h4>
+              <p>Mastery in Generative AI architectures, prompt engineering, and LLM integrations.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrap icon-oracle"><i class="fa-solid fa-cloud"></i></div>
+            <div class="cert-text">
+              <span class="cert-issuer">Oracle</span>
+              <h4>Oracle Fusion Cloud Applications HCM Certified Foundations Associate</h4>
+              <p>Foundations of enterprise cloud services and HCM infrastructure.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrap icon-google"><i class="fa-solid fa-palette"></i></div>
+            <div class="cert-text">
+              <span class="cert-issuer">Google (Coursera)</span>
+              <h4>Google UX Design: Foundations of UX Design</h4>
+              <p>User-centered research, wireframing, empathy maps, and design heuristics.</p>
+            </div>
+          </div>
+
+          <div class="cert-card glass-panel">
+            <div class="cert-icon-wrap icon-meta"><i class="fa-brands fa-meta"></i></div>
+            <div class="cert-text">
+              <span class="cert-issuer">Meta (Coursera)</span>
+              <h4>Meta: Introduction to Frontend Development</h4>
+              <p>Modern HTML5, responsive CSS layout systems, and client-side web mechanics.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-dark">
+      <div class="container">
+        <div class="contact-wrapper glass-panel">
+          <div class="contact-info-side">
+            <span class="section-eyebrow"><i class="fa-solid fa-paper-plane"></i> LET'S CONNECT</span>
+            <h2>Ready to collaborate on high-impact projects?</h2>
+            <p>
+              I am actively available for full-time <strong>Java Full Stack Developer</strong> roles, backend engineering positions, and software engineering opportunities.
+            </p>
+
+            <div class="direct-contact-stack">
+              <div class="direct-box">
+                <div class="d-icon"><i class="fa-solid fa-envelope text-cyan"></i></div>
+                <div class="d-meta">
+                  <span>Email</span>
+                  <a href="mailto:subiksen.v.s@gmail.com">subiksen.v.s@gmail.com</a>
+                </div>
+                <button class="copy-btn" data-copy="subiksen.v.s@gmail.com" title="Copy Email"><i class="fa-regular fa-copy"></i></button>
+              </div>
+
+              <div class="direct-box">
+                <div class="d-icon"><i class="fa-solid fa-phone text-emerald"></i></div>
+                <div class="d-meta">
+                  <span>Phone</span>
+                  <a href="tel:+917904600551">+91 7904600551</a>
+                </div>
+                <button class="copy-btn" data-copy="+917904600551" title="Copy Phone"><i class="fa-regular fa-copy"></i></button>
+              </div>
+
+              <div class="direct-box">
+                <div class="d-icon"><i class="fa-solid fa-location-dot text-purple"></i></div>
+                <div class="d-meta">
+                  <span>Location</span>
+                  <strong>Trichy, Tamil Nadu, India</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-side">
+            <form id="contactForm" class="clean-form">
+              <div class="input-field">
+                <label for="name">Your Name <span class="required">*</span></label>
+                <input type="text" id="name" required placeholder="Satya Nadella" />
+              </div>
+
+              <div class="input-field">
+                <label for="email">Your Email <span class="required">*</span></label>
+                <input type="email" id="email" required placeholder="satya@microsoft.com" />
+              </div>
+
+              <div class="input-field">
+                <label for="subject">Subject / Opportunity</label>
+                <input type="text" id="subject" placeholder="Java Full Stack Developer Opportunity" />
+              </div>
+
+              <div class="input-field">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" rows="4" required placeholder="Hi Subiksen, I reviewed your portfolio and would like to connect..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-glow btn-block" id="sendMsgBtn">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+              <div id="formStatus" class="form-status-msg"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="brand-code">&lt;S/&gt;</span>
+        <span class="brand-name">SUBIKSEN V S</span>
+      </div>
+      <p class="footer-copy">© 2026 Subiksen V S. Engineered with Java, Angular &amp; AI passion.</p>
+      <div class="footer-links">
+        <a href="mailto:subiksen.v.s@gmail.com">Email</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://leetcode.com" target="_blank" rel="noopener">LeetCode</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast-box"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
