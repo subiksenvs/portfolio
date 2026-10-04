@@ -18,6 +18,9 @@
 </head>
 <body>
 
+  <!-- Reading Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
   <!-- Dynamic Interactive Particle Background Canvas -->
   <canvas id="particleCanvas"></canvas>
   <div class="bg-gradient-glow glow-1"></div>
@@ -29,15 +32,25 @@
       <a href="#hero" class="brand">
         <span class="brand-code">&lt;S/&gt;</span>
         <span class="brand-name">SUBIKSEN V S</span>
-        <span class="brand-badge"><span class="badge-dot"></span>Open to Work</span>
+        <span class="brand-badge"><span class="badge-dot"></span><span class="badge-text">Open to Work</span></span>
       </a>
 
-      <nav class="nav-menu">
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
         <a href="#about" class="nav-item">About</a>
         <a href="#skills" class="nav-item">Skills</a>
         <a href="#projects" class="nav-item">Projects</a>
         <a href="#experience" class="nav-item">Timeline</a>
         <a href="#certifications" class="nav-item">Certifications</a>
+        <div class="mobile-nav-action">
+          <a href="#contact" class="btn btn-sm btn-primary btn-glow btn-block">Get In Touch</a>
+        </div>
       </nav>
 
       <div class="nav-actions">
@@ -45,6 +58,9 @@
       </div>
     </div>
   </header>
+
+  <!-- Mobile Menu Backdrop Overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
 
   <main>
     <!-- HERO SECTION -->
@@ -661,6 +677,11 @@
       </div>
     </div>
   </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
 
   <!-- Toast Notification Container -->
   <div id="toast" class="toast-box"></div>
